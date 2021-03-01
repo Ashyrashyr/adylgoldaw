@@ -51,6 +51,53 @@
         </div>
       </nav>
     </header>
+       <style>
+      @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+
+.ticker-box {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-gap: 5px;
+    align-items: center;
+    font-size: 16px;
+    background:  #4fbfa8;
+    box-shadow: 4px 8px 5px 0 rgba(0, 0, 0, .5);
+}
+
+.ticker-body {
+   
+    color: white;
+}
+
+.ticker-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #48036F;
+    color: white;
+}
+    </style>
+    <div style="
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;" >
+    <div class="ticker-box">
+      <div class="ticker-title" style="background-color: #348e7b ">
+        Новости
+      </div>
+      <marquee id="ticker" class="ticker-body" style="background-color: #4fbfa8">
+       Как сообщается на сайте туркменского железнодорожного агентства, с марта возобновляются железнодорожные пассажирские перевозки по маршрутам: Ашхабад – Туркменабат, Туркменабат – Ашхабад.
+
+       Стало известно расписание международных грузовых рейсов «Туркменских авиалиний» на март-апрель
+      </marquee>
+      
+    </div>
+
+    
+  </div>
     <!-- Intro Image-->
     <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center">
@@ -68,7 +115,7 @@
         <div class="row">
           <div data-animate="fadeInUp" class="col-lg-12">
             <p>Adyl Goldaw-индивидуальное предприятие по сбору документов со стажем более 3х лет.</p>
-            <p>В нашей команде работают опытные специалисты. Мы работаем с любыми сложными документациями. Наши бухгалтеры собирают отчеты от наших клиентов и отправляют их местным регистраторам.</p>
+            <p>В нашей команде работают опытные специалисты. Мы работаем с любыми сложными документациями. Наши бухгалтера собирают отчеты от наших клиентов и отправляют их местным регистраторам.</p>
             
             <p>
               Для Вас сбор документов перестает быть головной болью, мы дарим Вам спокойствие и возможность заниматься развитием Вашего бизнеса. Мы дорожим своим имиджем и нацелены на долгосрочное сотрудничество. С нами легко и надежно!
@@ -175,10 +222,10 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"6",
               </li>
               <br>
               <li>
-                Аннулирование бизнеса ИП и ХО в течение 2 месяцев;
+                Ликвидация бизнеса ИП и ХО в течение 2 месяцев;
               </li><br>
               <li>
-               Продление срока ЕГРПО частного предприятия и бизнес-сообщества на 5 дней;
+               Продление срока ЕГРПО ИП и ХО на 5 дней;
               </li><br>
               <li>
                Услуги по сбору, составлению и сдаче бухгалтерской отчетности в местным регистраторам;
@@ -268,7 +315,16 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"6",
     
                     </div>
                   </div>
-                  
+                  <div data-category="flutter" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/th.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Täze hyzmat</h3>
+                          </div>
+                        </div></a>
+    
+                    </div>
+                  </div>
                   
             </div>
           </div>
@@ -374,6 +430,7 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"6",
         </ul>
       </div>
     </section>
+ 
     <!-- Contact-->
     <section id="contact" data-animate="bounceIn" class="contact-section contact">
       <div class="container">
@@ -416,15 +473,14 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"6",
         <div class="row">
           <div class="col-md-6 text-center text-lg-left">
             <p class="social phone">
-             <i class="fa fa-phone">  </i>+993 61 44 90 67
-           </p>
-              <p><i class="fa fa-phone"></i>
-              +993 65 04 46 19 <p>
-               <p>
-                 <i class="fa fa-phone"></i>
-              +993 63 87 78 61
+             <i class="fa fa-phone">  </i>&nbsp; +993 61 44 90 67&nbsp;&nbsp;г.Ашхабат
+           </p><p>
+                 <i class="fa fa-phone"></i>&nbsp;
+              +993 63 87 78 61&nbsp;&nbsp;г.Ашхабат
 
                </p>
+              <p><i class="fa fa-phone"></i> &nbsp;+993 65 04 46 19&nbsp;&nbsp;г.Мары <p>
+               
 
             </p>
           </div>
